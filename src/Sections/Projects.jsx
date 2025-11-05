@@ -1,7 +1,8 @@
 export default function Projects() {
   return (
     <div className="projects">
-      <h1>Hello from Projects</h1>
+      <h2>Projects</h2>
+      <p>blah blah blah</p>
     </div>
   );
 }
