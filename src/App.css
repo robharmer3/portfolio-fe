@@ -38,21 +38,25 @@
   padding: 2em;
 }
 
+.header {
+  width: 100%;
+  border: solid;
+  border-radius: 8px;
+  border-color: white;
+  margin-bottom: 10px;
+  background-color: blueviolet;
+}
+
 .footer {
   width: 100%;
   color: #888;
   border: solid;
   border-radius: 8px;
-  border-color: blueviolet;
+  border-color: 888;
   margin-bottom: 10px;
-}
-
-.header {
-  width: 100%;
-  border: solid;
-  border-radius: 8px;
-  border-color: blueviolet;
-  margin-bottom: 10px;
+  background-color: blueviolet;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .bio {
@@ -69,6 +73,12 @@
   border-color: lime;
   margin-bottom: 10px;
 }
+.single-project {
+  border: solid;
+  border-radius: 8px;
+  border-color: darkblue;
+  margin-bottom: 10px;
+}
 .skills {
   width: 100%;
   border: solid;
@@ -82,4 +92,9 @@
   border-radius: 8px;
   border-color: skyblue;
   margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px;
 }
