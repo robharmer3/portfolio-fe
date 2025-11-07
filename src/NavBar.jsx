@@ -17,7 +17,7 @@ export default function NavBar() {
           <Link to="/skills">Skills</Link>
         </li>
         <li>
-          <Link to="/contact">Contact Me</Link>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </nav>
