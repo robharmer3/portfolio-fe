@@ -36,11 +36,33 @@
   border-radius: 8px;
   border-color: red;
   margin-bottom: 10px;
+  /* display: inline-block; */
 }
 .bio-list {
   text-align: left;
-  align-content: normal;
-  padding: 20px;
+  align-content: center;
+  padding: 15px;
+  min-width: 200px;
+  border: solid;
+  border-radius: 8px;
+  border-color: red;
+  /* display: inline-block; */
+}
+.bio-list h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.bio-list ul {
+  padding: 0;
+}
+.profile-pic {
+  border: solid;
+  border-radius: 8px;
+  border-color: red;
+  margin-bottom: 10px;
+  width: 200px;
+  margin: 15px;
+  display: inline-flex;
 }
 
 .projects {
@@ -71,17 +93,25 @@
   display: inline-block;
   min-width: 300px;
   max-width: 400px;
-  height: 100px;
   padding: 20px;
   margin: 10px;
   border: solid;
   border-radius: 8px;
   border-color: red;
   margin-bottom: 10px;
-  text-align: left;
+  text-align: center;
+}
+.contact-container img {
+  display: inline;
+  width: 48px;
 }
 .contact-title {
   font-weight: bold;
+  display: block;
+}
+.contact-content {
+  font-weight: normal;
+  display: block;
 }
 
 ul {
